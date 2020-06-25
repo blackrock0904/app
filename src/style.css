@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+main {
+  height: 80%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex>* {
+  flex-basis: 33.333%;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.container {
+  margin: 20px;
+}
+
+.progress-bar {
+  width: 90%;
+  margin: 0 auto;
+  height: 15px;
+  border: 1px solid black;
+}
+
+.progress-content {
+  height: 100%;
+  width: 20%;
+  background-color: black;
+}
+
+.btn-tertiary {
+  color: #555;
+  padding: 0;
+  line-height: 40px;
+  width: 300px;
+  margin: auto;
+  display: block;
+  border: 2px solid #555
+}
